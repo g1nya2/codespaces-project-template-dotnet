@@ -119,7 +119,7 @@ _선택적인 값들_ 은 이메일 주소와 소셜 계정입니다. 이는 `Fo
 
 ### 2️⃣ 이미지 업데이트하기
 
-This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
+이 포트폴리오 사이트에는 3가지 이미지가 포함되어있습니다 : 상단 배경, "About me" 배경 및 포트폴리오 부분(책상그림) 등. These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
 
 A couple possible sites to find photos are [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com). Photos, illustrations, vectors, your choice! When you find your images, save each one to `/src/BlazorApp/wwwroot/images` with a short, meaningful file name.
 
