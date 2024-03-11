@@ -86,17 +86,17 @@ Your development environment is all set for you to start. Based on our [.NET Cod
 
 <br />
 
-## ✨ Customize your site in 4 steps
+## ✨ 사이트를 4단계에 걸쳐 개인 맞춤 설정하기
 
-This project is built to be easily customizable. Each section of the site is a separate component, and your information needs to be set in only one spot. This is not only for ease of updating, but so you can see how values are passed to Blazor components.
+이 프로젝트는 쉽게 개인 맞춤 설정할 수 있도록 제작되었습니다. 사이트의 각 부분은 별도의 컴포넌트이며, 당신의 정보는 한 곳에만 설정되어야 합니다. 이는 업데이트를 쉽게 하기 위한 것일 뿐만 아니라, 블레이저 컴포넌트에 값이 전달되는 방식을 확인할 수 있습니다.
 
-For each step, open the project in Codespaces, then you can make and commit your changes while within your Codespaces.
+각 단계별로 코드스페이스에서 프로젝트를 연 다음 코드스페이스 내에서 변경하고, 변경 사항을 커밋할 수 있습니다.
 
-> See [Using source control in your codespaces](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
+> 자세한 코드스페이스 소스 제어 방법은 [코드스페이스에서 소스 제어 사용](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) 을 참조하시면 됩니다.
 
-### 1️⃣ Add your details and social media accounts
+### 1️⃣ 세부 정보 및 소셜 미디어 계정 추가하기
 
-Open `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. This is a JSON object that hold the key value pairs needed to customize your name, title, email, and social media accounts.
+`/src/BlazorApp/wwwroot/sample-data/siteproperties.json`을 엽니다. 이는 이름, 제목, 이메일 및 소셜 미디어 계정을 개인 맞춤 설정하는데 필요한 키-값 쌍을 담고 있는 JSON 객체 입니다.
 
 ```jsonc
 {
@@ -113,11 +113,11 @@ Open `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. This is a JSON ob
 };
 ```
 
-Update to the name and title you'd like displayed at the top of your site.
+사이트 맨 위에 표시할 이름과 제목을 업데이트합니다.
 
-_Optional values_ are email address and social accounts. These are used in the `Footer` component. If any item is not included in the list or set to an empty string ("") it will not display the icon and link.
+_선택적인 값들_ 은 이메일 주소와 소셜 계정입니다. 이는 `Footer` 컴포넌트에 사용됩니다. 리스트에 어떤 항목도 포함하지 않거나 빈 문자열 ("")로 설정하면 아이콘과 링크가 표시되지 않습니다.
 
-### 2️⃣ Update images
+### 2️⃣ 이미지 업데이트하기
 
 This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
 
