@@ -196,7 +196,7 @@ JSON 배열인 `/src/BlazorApp/wwwroot/sample-data/projects.json` 을 엽니다.
 
 ## 🏃 웹 애플리케이션 배포하기
 
-프로젝트에는 **무료**로 [Azure 정적 웹앱](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) 및 [GitHub 페이지](https://pages.github.com/)</a>에 배포할 수 있는 설정이 모두 포함되어 있습니다.
+이 프로젝트에는 **무료**로 [Azure 정적 웹앱](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) 및 [GitHub 페이지](https://pages.github.com/)</a>에 배포할 수 있는 설정이 모두 포함되어 있습니다.
 
 ### Azure 정적 웹앱
 
