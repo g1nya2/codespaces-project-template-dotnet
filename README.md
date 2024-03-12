@@ -90,9 +90,9 @@ Your development environment is all set for you to start. Based on our [.NET Cod
 
 이 프로젝트는 쉽게 개인 맞춤 설정할 수 있도록 제작되었습니다. 사이트의 각 부분은 별도의 컴포넌트이며, 당신의 정보는 한 곳에만 설정되어야 합니다. 이는 업데이트를 쉽게 하기 위한 것일 뿐만 아니라, 블레이저 컴포넌트에 값이 전달되는 방식을 확인할 수 있습니다.
 
-각 단계별로 코드스페이스에서 프로젝트를 연 다음 코드스페이스 내에서 변경하고, 변경 사항을 커밋할 수 있습니다.
+각 단계별로 codespace에서 프로젝트를 연 다음 codespace 내에서 변경하고, 변경 사항을 커밋할 수 있습니다.
 
-> 자세한 코드스페이스 소스 제어 방법은 [코드스페이스에서 소스 제어 사용](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) 을 참조하시면 됩니다.
+> 자세한 codespace 원본 제어 방법은 [Codespace에서 원본 제어 사용](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) 을 참조하시면 됩니다.
 
 ### 1️⃣ 세부 정보 및 소셜 미디어 계정 추가하기
 
@@ -119,9 +119,9 @@ _선택적인 값들_ 은 이메일 주소와 소셜 계정입니다. 이는 `Fo
 
 ### 2️⃣ 이미지 업데이트하기
 
-이 포트폴리오 사이트에는 3가지 이미지가 포함되어있습니다 : 상단 배경, "About me" 배경 및 포트폴리오 부분(책상그림) 등. These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
+이 포트폴리오 사이트에는 3가지 이미지가 포함되어있습니다 : 상단 배경, "About me" 배경 및 포트폴리오 부분(책상그림). 이것들은 당신의 컬렉션에서 **풍경** 크기의 이미지를 선택하거나 무단으로 사용할 수 있는 라이선스가 있는 이미지를 찾아 사용할 수 있습니다.
 
-A couple possible sites to find photos are [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com). Photos, illustrations, vectors, your choice! When you find your images, save each one to `/src/BlazorApp/wwwroot/images` with a short, meaningful file name.
+사진을 찾을 수 있는 사이트는 [Pixabay](https://pixabay.com/)와 [Unsplash](https://unsplash.com)입니다. Photos, illustrations, vectors, your choice! When you find your images, save each one to `/src/BlazorApp/wwwroot/images` with a short, meaningful file name.
 
 Open `/src/BlazorApp/wwwroot/sample-data/heroimages.json` and update images with your preferred ones, as well as the alt text for each image:
 
