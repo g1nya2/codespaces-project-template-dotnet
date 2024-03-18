@@ -223,7 +223,7 @@ Codespaces에서 프로젝트를 열고 :
     1. **Output location**: `wwwroot` 를 입력합니다.
 1. 완료되면 화면 하단에 알림이 나타나고, 새로운 GitHub Action 워크플로가 프로젝트에 추가됩니다. "Open Action in GitHub"을 클릭하면 생성된 작업을 볼 수 있으며, 현재 실행 중인 것을 확인할 수 있습니다.
 
-> 🤩 **보너스**: [Azure 정적 웹앱에 사용자 정의 도메인 설정하기](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024-juyoo)
+> 🤩 **보너스**: [Azure 정적 웹앱에 사용자가 원하는 도메인 설정하기](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024-juyoo)
 
 ### GitHub 페이지
 
@@ -244,7 +244,7 @@ GitHub 리포지토리에서 :
 
     <img src="./images/deploy-to-ghpages-03.png" alt="Visit GitHub Pages" style="width: 600px;" />
 
-> 🤩 **보너스**: [GitHub 페이지 사이트에 사용자 정의 도메인 설정하기](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+> 🤩 **보너스**: [GitHub 페이지 사이트에 사용자가 원하는 도메인 설정하기](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 <br />
 
