@@ -123,7 +123,7 @@ _선택 사항_ 에는 이메일 주소와 소셜 계정 입력이 있습니다.
 
 [Pixabay](https://pixabay.com/) 또는 [Unsplash](https://unsplash.com) 같은 사이트에서 사진을 찾을 수 있습니다. 사진, 일러스트, 벡터 이미지 등 원하는 이미지를 찾으면 각각을 `/src/BlazorApp/wwwroot/images` 에 간결하고 의미있는 파일명으로 저장합니다.
 
-`/src/BlazorApp/wwwroot/sample-data/heroimages.json` 을 열고 선택한 이미지들로 업데이트하고 각 이미지의 alt 텍스트를 업데이트하세요 :
+`/src/BlazorApp/wwwroot/sample-data/heroimages.json` 을 열고 좀 전에 찾은 이미지들로 업데이트하고 각 이미지의 alt 텍스트를 업데이트하세요 :
 
 ```jsonc
 [
