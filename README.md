@@ -88,7 +88,7 @@ Your development environment is all set for you to start. Based on our [.NET Cod
 
 ## ✨ 사이트를 네 단계에 걸쳐 수정하기
 
-이 프로젝트는 쉽게 사용자가 원하는대로 수정할 수 있습니다. 사이트의 각 섹션은 별도의 컴포넌트이며, 사용자의 정보는 한 곳에만 저장해야 합니다. 이렇게 함으로써 업데이트를 쉽게 할 수 있고, 어떤 식으로 Blazor 컴포넌트에 값을 전달하는지 확인할 수 있습니다.
+이 프로젝트는 쉽게 사용자가 원하는대로 수정할 수 있습니다. 사이트의 각 섹션은 별도의 컴포넌트이며, 사용자의 정보는 한 곳에만 저장해야 합니다. 이렇게 함으로써 업데이트를 쉽게 할 수 있고, 어떤 방식으로 Blazor 컴포넌트에 값을 전달하는지 확인할 수 있습니다.
   
 각 단계별로 Codespaces에서 프로젝트를 연 다음 내용을 변경하고, 변경 사항을 커밋할 수 있습니다.
 
@@ -96,7 +96,7 @@ Your development environment is all set for you to start. Based on our [.NET Cod
 
 ### 1️⃣ 세부 정보 및 소셜 미디어 계정 추가하기
 
-`/src/BlazorApp/wwwroot/sample-data/siteproperties.json` 을 엽니다. 이 파일은 이름, 제목, 이메일 및 소셜 미디어 계정을 커스텀하는 데 필요한 키와 그 키에 해당하는 값을 담고 있는 JSON 객체입니다.
+`/src/BlazorApp/wwwroot/sample-data/siteproperties.json` 을 엽니다. 이 파일은 이름, 제목, 이메일 및 소셜 미디어 계정을 사용자가 원하는대로 수정하는 데 필요한 키와 그 키에 해당하는 값을 담고 있는 JSON 객체입니다.
 
 ```jsonc
 {
@@ -161,9 +161,9 @@ Your development environment is all set for you to start. Based on our [.NET Cod
 
 ### 4️⃣ 작업한 프로젝트를 추가하고 세부 텍스트 입력하기
 
-이 섹션은 포트폴리오로, 여러분이 작업한 프로젝트를 강조합니다. 기사, 비디오, 로고 디자인, 깃허브 프로젝트 등 여러분을 부각하는 내용으로 구성할 수 있습니다!
+이 섹션은 여러분이 작업한 프로젝트를 강조하는 포트폴리오입니다. 기사, 비디오, 로고 디자인, GitHub 프로젝트 등 여러분을 부각하는 내용으로 구성할 수 있습니다!
 
-JSON 배열인 `/src/BlazorApp/wwwroot/sample-data/projects.json` 을 열고, 강조하려는 각 항목에는 다음이 필요합니다 : 제목, 설명 및 URL
+JSON 배열인 `/src/BlazorApp/wwwroot/sample-data/projects.json` 을 열고, 강조하려는 각 항목에는 다음이 필요합니다 : 제목, 설명, URL
 
 샘플 디자인에는 네 개의 항목이 있지만, 항목 수는 각자 자유롭게 선택하면 됩니다.
 
